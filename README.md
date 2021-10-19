@@ -14,3 +14,5 @@ sistema use recursos de forma limitada.**
 
 - [Jenkins](18.170.65.247:8080)
 - [Tomcat](18.170.65.247:8090)
+- MySQL
+- Maven
