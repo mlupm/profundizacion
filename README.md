@@ -1,27 +1,16 @@
-# profundizacion
+# Profundización en Ingeniería de Software
+## Integrantes
 
-# Meeting 1
-- Project Backlog
-  + 2-3 h para proyecto / semana
-  + GitHub Projects -> Automated Kanban
-  + Burndown chart
-  + 6 historias de usuario -> Escoger una
-	* Como administrador, quiero deshabilitar consultas obsoletas para que el
-	  sistema use recursos de forma limitada.
-	  - Carlos
-		  + Crear instancia para el grupo
-		  + Montar Maven y Jenkins
-		  + Reunión de BBDD
+- Manuel Leira
+- Lucía Fernández
+- Carlos Miguel
 
-	  - Manuel
-		  + Montar Tomcat
-		  + Montar una BBDD
+## Historia de usuario elegida
 
-	  - Lucía
-		  + Definir BBDD (esquema y estructura)
-		  + Montar projecto en GitHub (Lucía)
+**Como administrador, quiero deshabilitar consultas obsoletas para que el
+sistema use recursos de forma limitada.**
 
-	  - Por definir/Desgranar:
-		  - Introducir datos iniciales en la BBDD
-		  - Diseñar la estructura de las consultas
-		  - Diseñar la gestión de las consultas
+## Servicios
+
+- [Jenkins](18.170.65.247:8080)
+- [Tomcat](18.170.65.247:8090)
