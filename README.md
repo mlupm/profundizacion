@@ -12,7 +12,7 @@ sistema use recursos de forma limitada.**
 
 ## Servicios
 
-- [Jenkins](18.170.65.247:8080)
-- [Tomcat](18.170.65.247:8090)
+- [Jenkins](http://18.133.187.182/:80)
+- [Tomcat](http://18.133.187.182/:8090)
 - MySQL
 - Maven
