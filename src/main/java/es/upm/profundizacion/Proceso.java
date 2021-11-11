@@ -20,6 +20,7 @@ public class Proceso {
 		this.lastRequestTS = new Date().getTime();
 	}
 
+	// Getters
 
 	public int getSize() {
 		return this.size;
@@ -33,20 +34,18 @@ public class Proceso {
 		return this.lastRequestTS;
 	}
 
+	// Incrementos
 
-	public void setSize(int size) {
-		this.size = size;
+	public void incSize(int size) {
+		this.size += size;
 	}
-
-	public void setLastRequestTS(long newTS) {
-		this.lastRequestTS = newTS;
-	}
-
 
 	public void incNumRequests() {
 		this.numRequests += 1;
 	}
 
-
+	public void updateLastRequestTS() {
+		this.lastRequestTS = new Date().getTime();
+	}
 
 }
